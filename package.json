@@ -2,6 +2,9 @@
   "name": "movie-db",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "6.4.0"
+  },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "docker-build": "docker build -t ng2-quickstart .",
