@@ -5,14 +5,14 @@
   "engines": {
     "node": "5.11.1"
   },
-  "scripts": {
+  /*"scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "docker-build": "docker build -t ng2-quickstart .",
     "docker": "npm run docker-build && docker run -it --rm -p 3000:3000 -p 3001:3001 ng2-quickstart",
     "pree2e": "npm run webdriver:update",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
-    "lint": "tslint ./app/**/*.ts -t verbose",
-    "lite": "lite-server",
+    "lint": "tslint ./app*//***/*//*.ts -t verbose",*/
+    /*"lite": "lite-server",
     "postinstall": "typings install",
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
@@ -20,7 +20,7 @@
     "tsc:w": "tsc -w",
     "typings": "typings",
     "webdriver:update": "webdriver-manager update"
-  },
+  },*/
   "keywords": [],
   "author": "",
   "license": "ISC",
