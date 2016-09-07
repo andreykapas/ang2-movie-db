@@ -46,7 +46,7 @@ interface NodeRequire extends NodeRequireFunction {
     main: any;
 }
 
-declare var require: NodeRequire;
+declare var require: any;
 
 interface NodeModule {
     exports: any;
@@ -58,7 +58,7 @@ interface NodeModule {
     children: any[];
 }
 
-declare var module: NodeModule;
+declare var module: { id: string};
 
 // Same as module.exports
 declare var exports: any;
