@@ -1,0 +1,14 @@
+<h1>Movies List</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2" *ngFor="let movie of movies"
+         [class.selected]="isSelected(movie)"
+         (click)="onSelect(movie)">
+      <ul class="movie">
+        <li>
+          <a><img src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}" class="img-responsive" height="25%"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

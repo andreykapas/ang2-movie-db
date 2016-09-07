@@ -1,0 +1,7 @@
+<h1>Movie detail</h1>
+<h2>{{movie.title}}</h2>
+<img src="http://image.tmdb.org/t/p/w185/{{movie.poster}}">
+<p>{{movie.overview}}</p>
+<p>Budget: {{movie.budget | currency:'USD':true:'4.2-2'}}</p>
+<p>Release Date: {{movie.release_date | date}}</p>
+<p>The Movie DB rating: {{movie.vote_average}}</p>
